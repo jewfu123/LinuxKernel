@@ -1,0 +1,1 @@
+cmd_/home/orangepi/Linux_Driver_Tutorial/02_hellobetter/hellobetter.mod := printf '%s\n'   hellobetter.o | awk '!x[$$0]++ { print("/home/orangepi/Linux_Driver_Tutorial/02_hellobetter/"$$0) }' > /home/orangepi/Linux_Driver_Tutorial/02_hellobetter/hellobetter.mod

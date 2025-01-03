@@ -1,0 +1,1 @@
+cmd_/home/orangepi/Linux_Driver_Tutorial/02_hellobetter/Module.symvers :=  sed 's/ko$$/o/'  /home/orangepi/Linux_Driver_Tutorial/02_hellobetter/modules.order | scripts/mod/modpost      -o /home/orangepi/Linux_Driver_Tutorial/02_hellobetter/Module.symvers -e -i Module.symvers -T - 

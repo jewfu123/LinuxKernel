@@ -1,0 +1,1 @@
+cmd_/home/orangepi/Linux_Driver_Tutorial/02_hellobetter/hellobetter.ko := ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/orangepi/Linux_Driver_Tutorial/02_hellobetter/hellobetter.ko /home/orangepi/Linux_Driver_Tutorial/02_hellobetter/hellobetter.o /home/orangepi/Linux_Driver_Tutorial/02_hellobetter/hellobetter.mod.o;  true
