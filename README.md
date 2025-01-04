@@ -2,6 +2,7 @@
 some develop about linux kernel
 
 01 hello
+```Shell
 sudo insmod
 sudo rmmod
 
@@ -16,6 +17,8 @@ ln -s src obj
 
 find out the header src path and make soft link to there.
 
+sudo modprobe industrialio
+```
 
 
 
